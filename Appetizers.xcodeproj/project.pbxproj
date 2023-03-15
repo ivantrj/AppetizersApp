@@ -15,6 +15,7 @@
 		2CDE5D1D29C067E700E6BAE0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE5D1C29C067E700E6BAE0 /* AccountView.swift */; };
 		2CDE5D1F29C067EB00E6BAE0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE5D1E29C067EB00E6BAE0 /* OrderView.swift */; };
 		2CDE5D2129C1C99A00E6BAE0 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE5D2029C1C99A00E6BAE0 /* Appetizer.swift */; };
+		2CDE5D2329C208AA00E6BAE0 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE5D2229C208AA00E6BAE0 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2CDE5D1C29C067E700E6BAE0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		2CDE5D1E29C067EB00E6BAE0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		2CDE5D2029C1C99A00E6BAE0 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		2CDE5D2229C208AA00E6BAE0 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				2CDE5D2029C1C99A00E6BAE0 /* Appetizer.swift */,
 				2CDE5D1029C0671500E6BAE0 /* Assets.xcassets */,
 				2CDE5D1229C0671500E6BAE0 /* Preview Content */,
+				2CDE5D2229C208AA00E6BAE0 /* AppetizerListCell.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CDE5D2129C1C99A00E6BAE0 /* Appetizer.swift in Sources */,
+				2CDE5D2329C208AA00E6BAE0 /* AppetizerListCell.swift in Sources */,
 				2CDE5D1D29C067E700E6BAE0 /* AccountView.swift in Sources */,
 				2CDE5D1B29C067E100E6BAE0 /* AppetizerListView.swift in Sources */,
 				2CDE5D0F29C0671400E6BAE0 /* AppetizerTabView.swift in Sources */,
