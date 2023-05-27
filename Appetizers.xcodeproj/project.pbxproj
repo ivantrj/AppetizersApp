@@ -22,6 +22,7 @@
 		2CEBC9A929C86C4700324B31 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC9A829C86C4700324B31 /* Alert.swift */; };
 		2CEBC9AB29C8700D00324B31 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC9AA29C8700D00324B31 /* LoadingView.swift */; };
 		2CEBC9AD29C870FA00324B31 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBC9AC29C870FA00324B31 /* Color+Ext.swift */; };
+		7DCD5A142A22501500A41E6A /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD5A132A22501500A41E6A /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		2CEBC9A829C86C4700324B31 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		2CEBC9AA29C8700D00324B31 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		2CEBC9AC29C870FA00324B31 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		7DCD5A132A22501500A41E6A /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				2CDE5D1229C0671500E6BAE0 /* Preview Content */,
 				2CEBC9AA29C8700D00324B31 /* LoadingView.swift */,
 				2CEBC9AC29C870FA00324B31 /* Color+Ext.swift */,
+				7DCD5A132A22501500A41E6A /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				2CEBC9AB29C8700D00324B31 /* LoadingView.swift in Sources */,
 				2CDE5D1B29C067E100E6BAE0 /* AppetizerListView.swift in Sources */,
 				2CDE5D2529C49A8000E6BAE0 /* NetworkManager.swift in Sources */,
+				7DCD5A142A22501500A41E6A /* RemoteImage.swift in Sources */,
 				2CDE5D0F29C0671400E6BAE0 /* AppetizerTabView.swift in Sources */,
 				2CEBC9A929C86C4700324B31 /* Alert.swift in Sources */,
 				2CDE5D0D29C0671400E6BAE0 /* AppetizersApp.swift in Sources */,
@@ -311,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appetizers/Preview Content\"";
-				DEVELOPMENT_TEAM = 5H94SXB38X;
+				DEVELOPMENT_TEAM = 75MFN5S8CZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -340,7 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appetizers/Preview Content\"";
-				DEVELOPMENT_TEAM = 5H94SXB38X;
+				DEVELOPMENT_TEAM = 75MFN5S8CZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
