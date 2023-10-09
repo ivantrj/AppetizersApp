@@ -28,7 +28,7 @@ struct AlertContext {
                                             message: Text("There was an issue connecting to the server. Please contact support."),
                                             dismissButton: .default(Text("OK")))
     
-    static let unableToComplete  = AlertItem(title: Text("Server Error"),
+    static let unableToComplete = AlertItem(title: Text("Server Error"),
                                             message: Text("Unable to complete your request at this time. Please check your interner connection."),
                                             dismissButton: .default(Text("OK")))
 }
