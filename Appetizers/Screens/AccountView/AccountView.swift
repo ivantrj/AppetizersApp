@@ -8,27 +8,23 @@
 import SwiftUI
 
 struct AccountView: View {
-    @State private var firstName = ""
-    @State private var lastName = ""
-    @State private var email = ""
-    @State private var birthDate = Date()
-    @State private var extraNapkins = false
-    @State private var frequentRefills = false
+    @StateObject var viewModel = AccountViewModel()
+
 
     
     var body: some View {
         NavigationView {
             Form {
                 Section(header: Text("Personal Info")) {
-                    TextField("First Name", text: $firstName)
-                    TextField("Last Name", text: $lastName)
-                    TextField("Email", text: $email)
+                    TextField("First Name", text: $viewModel.firstName)
+                    TextField("Last Name", text: $viewModel.lastName)
+                    TextField("Email", text: $viewModel.email)
                         .keyboardType(.emailAddress)
                         .textInputAutocapitalization(.none)
-                    DatePicker("Birthday", selection: $birthDate, displayedComponents: .date)
+                    DatePicker("Birthday", selection: $viewModel.birthDate, displayedComponents: .date)
                     
                     Button {
-                        print("Save")
+                        viewModel.saveChanges()
                     } label: {
                         Text("Save Changes")
                             .foregroundColor(Color.brandPrimary)
@@ -36,13 +32,16 @@ struct AccountView: View {
                 }
                 
                 Section(header: Text("Requests")) {
-                    Toggle("Extra Napkings", isOn: $extraNapkins)
-                    Toggle("Frequent Refills", isOn: $frequentRefills)
+                    Toggle("Extra Napkings", isOn: $viewModel.extraNapkins)
+                    Toggle("Frequent Refills", isOn: $viewModel.frequentRefills)
                 }
                 .tint(Color.brandPrimary)
 
             }
             .navigationTitle("😂 Account")
+        }
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dismissButton)
         }
     }
 }
